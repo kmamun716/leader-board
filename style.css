@@ -1,0 +1,17 @@
+.top-players .players{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.player{
+    width: 30%;
+    display: flex;
+}
+.player img {
+    width: 56px;
+    height: 56px;
+}
+.player h3{
+   align-items: center;
+   padding-left: 30px;
+}
