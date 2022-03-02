@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,36 +18,149 @@
     <!-- header end -->
     <!-- main section start  -->
     <main>
-        <section class="top-players">
-            <h1>Top Player</h1>
-            <div class="players">
-                <div class="player">
-                    <img src="images/players/player-1.png" alt="">
-                    <h3>Jhon Smith</h3>
-                </div>
-                <div class="player">
-                    <img src="images/players/player-2.png" alt="">
-                    <h3>Pro Rasel</h3>
-                </div>
-                <div class="player">
-                    <img src="images/players/player-3.png" alt="">
-                    <h3>Abu Sufiyan</h3>
-                </div>
-                <div class="player">
-                    <img src="images/players/player-4.png" alt="">
-                    <h3>Sajedul Karim</h3>
-                </div>
-                <div class="player">
-                    <img src="images/players/player-5.png" alt="">
-                    <h3>Maruf Ahmed</h3>
-                </div>
-                <div class="player">
-                    <img src="images/players/player-6.png" alt="">
-                    <h3>Mujahid</h3>
+        <section class="container">
+            <div class="top-players">
+                <h3 class="section-title">Top Players</h3>
+                <div class="players">
+                    <div class="player">
+                        <img src="images/players/player-1.png" alt="">
+                        <h3>Jhon Smith</h3>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-2.png" alt="">
+                        <h3>Pro Rasel</h3>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-3.png" alt="">
+                        <h3>Abu Sufiyan</h3>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-4.png" alt="">
+                        <h3>Sajedul Karim</h3>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-5.png" alt="">
+                        <h3>Maruf Ahmed</h3>
+                    </div>
+                    <div class="player">
+                        <img src="images/players/player-6.png" alt="">
+                        <h3>Mujahid</h3>
+                    </div>
                 </div>
             </div>
             <hr>
-            <h1>Top Blog</h1>
+            <div class="top-blogs">
+                <h3 class="section-title">Top Blogs</h3>
+                <div class="blogs">
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-1.png" alt="">                            
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">13 of My Favorite
+                                UI/UX Goodies</h3>
+                            <p>By <a href="#">Danny Sapio</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-2.png" alt="">                            
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">UI cheat sheet: 
+                                list vs grids</h3>
+                            <p>By <a href="#">Tess Gadd</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-3.png" alt="">                            
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">7 typography tips 
+                                for interface design</h3>
+                            <p>By <a href="#">Jeremiah Lam</a></p>
+                        </div>
+                    </article>
+                    <article class="blog">
+                        <div class="thumbnail">
+                            <img src="images/blogs/blog-4.png" alt="">                            
+                        </div>
+                        <div class="blog-info">
+                            <h3 class="blog-title">Your logo is copied</h3>
+                            <p>By <a href="#">Ferdinand Vogler</a></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="container lates-courses">
+            <h2 class="section-title">Latest Courses</h2>
+            <div class="courses">
+                <div class="course">
+                    <img src="images/courses/course-1.png" alt="">
+                    <div class="course-detail">
+                        <h3>React - The Complete Guide 2020</h3>
+                        <p class="course-author">Reed Krakoff.</p>
+                        <div class="course-info">
+                            <div class="rating">
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="time">
+                                <i class="fa-solid fa-clock"></i>
+                                <span>01:30 hr</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="images/courses/course-2.png" alt="">
+                    <div class="course-detail">
+                        <h3>Powerpoint 2020 Master Powerpoint Course</h3>
+                        <p class="course-author">Walter Scott</p>
+                        <div class="course-info">
+                            <div class="rating">
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.3</span>
+                            </div>
+                            <div class="time">
+                                <i class="fa-solid fa-clock"></i>
+                                <span>01:20 hr</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="images/courses/course-3.png" alt="">
+                    <div class="course-detail">
+                        <h3>The Complete JavaScript Course 2020</h3>
+                        <p class="course-author">Reed Krakoff.</p>
+                        <div class="course-info">
+                            <div class="rating">
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star empty"></i>
+                                <span>4.5</span>
+                            </div>
+                            <div class="time">
+                                <i class="fa-solid fa-clock"></i>
+                                <span>01:30 hr</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <!-- main section end -->
@@ -53,5 +169,6 @@
 
     </footer>
     <!-- footer end  -->
+    <script src="https://kit.fontawesome.com/0c75f8dd6d.js" crossorigin="anonymous"></script>
 </body>
 </html>
